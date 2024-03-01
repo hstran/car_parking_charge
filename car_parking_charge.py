@@ -210,7 +210,7 @@ class ParkingCharge:
         return fee
 
     """
-    汇总费用
+    汇总费用提供所有信息
     """
     def details_and_sum_fee(self):
         car_parking_fee_dict = go.cal_occupancy_and_fee()
